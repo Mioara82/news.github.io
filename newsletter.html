@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Newsletter form</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="newsletter.css">
+</head>
+<body id="box">
+	<main class="flex-container">
+		<div class="content">
+			<h3 class="Stay">Stay updated!</h3>
+			<p>Join 60,000+ product managers receiving monthly updates on:</p>
+			<ul class="list-content">
+				<li>Product discovery and building what matters</li>
+				<li>Measuring to ensure updates are a success</li>
+				<li>And much more!</li>
+			</ul>	
+			<form id="subscription-form" onload = 'document.emailInput.subscribeButton.focus()'>
+				<label for="email-input" class="label-class">Email address</label>
+				<input id="email-input" type="Email" name="Email address" placeholder="email@company.com">
+				<button id="btn-subs">Subscribe to monthly newsletter</button>
+			</form>
+
+			<div id="success-message" class="hidden">
+				<!--<h3 class = "subscription-text">Thanks for subscribing!</h3>
+				<p></p>
+				<button id="dismiss-button">Dismiss message</button>-->
+			</div>
+
+			<div id="error-message" class="hidden error-label">
+				<p>Valid email required</p>
+			</div>
+		</div>
+		<img class="responsive-image" alt="SVG image" src="/Users/mioaracenusa/Downloads/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg">
+	</main>
+	<script type="text/javascript" src="script.js">
+		</script>
+</body>
+</html>
+
+
+
+
