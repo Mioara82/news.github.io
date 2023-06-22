@@ -139,9 +139,6 @@ html, body{
 		margin-top: 15px;
 	}
 	#email-input:active{
-		border-style: double;
-	}
-	#btn-subs:active{
-		background-image: linear-gradient(to right, red, yellow);
+		background-color: #878995;
 	}
 }
