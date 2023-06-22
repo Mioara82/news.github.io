@@ -33,16 +33,12 @@ function ValidateEmail(event) {
 }
 
 emailInput.addEventListener('focus', function(event){
-    event.target.style.background= '#C7D2F3';
+    event.target.style.cursor= 'pointer';
 })
-
 
 emailInput.addEventListener('blur', function(event){
-    event.target.style.background= '';
+    event.target.style.cursor= 'auto';
 })
-
-
-
 
 
 

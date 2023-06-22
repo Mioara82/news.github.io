@@ -44,7 +44,7 @@ html, body{
 
 
 .list-content{
-	list-style-image: url(/Users/mioaracenusa/Documents/GitHub/news.github.io/icon-list.svg);
+	list-style-image: url(assets/images/icon-list.svg);
 }
 
 #email-input{
@@ -53,6 +53,7 @@ html, body{
 	border-radius: 15px;
 	color: #000000;
 }
+
 
 #btn-subs{
 	background-color: navy;
@@ -66,8 +67,7 @@ html, body{
 }
 
 #btn-subs:hover{
-	transform: scale(1.05);
-	opacity: 0.7;
+	background-image: linear-gradient(to right, red, yellow);
 	cursor: pointer;
 }
 
@@ -138,7 +138,10 @@ html, body{
 		order: -1;
 		margin-top: 15px;
 	}
-	#email-input:focus {
-		background-color: #C7D2F3;
+	#email-input:active{
+		border-style: double;
+	}
+	#btn-subs:active{
+		background-image: linear-gradient(to right, red, yellow);
 	}
 }

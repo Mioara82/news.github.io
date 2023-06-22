@@ -14,3 +14,6 @@ document.addEventListener('DOMContentLoaded', function(){
 	spanEmail.textContent = email;
 })
 
+dismissBtn.addEventListener('click', function(){
+	dismissBtn.backgroundImage = 'linear-gradient(to right, red, yellow)';
+})
