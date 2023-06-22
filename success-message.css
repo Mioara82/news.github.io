@@ -58,7 +58,6 @@ p{
 		margin-top: 18rem;
 	}
 	#dismiss-btn:focus{
-		transform: scale(1.1);
-		opacity: 0.6;
+		background-image: linear-gradient(to right, red, yellow);
 	}
 }
