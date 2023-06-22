@@ -5,7 +5,7 @@ const container = document.getElementById('container');
 
 dismissBtn.addEventListener('click', function close(){
 	container.style.display = 'none';
-	window.location.href = 'newsletter.html';
+	window.location.href = 'index.html';
 })
 
 const email = sessionStorage.getItem('email');
